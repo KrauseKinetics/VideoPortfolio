@@ -132,6 +132,33 @@
                                 <h6 class="h-left hd3">Portfolio</h6>
                                 <hr>
                                 <br>
+                                <section class="pfmf-grid pfmf-grid__25_25_25_25">
+                                    <div>
+                                        <section class="l-crd__vid" style="background-image: url(./img/neodigm55_palm.jpg);"
+                                        onclick="neodigmSodaPop.autoOpen('js-pup-vid-neodigm55_palm')">
+                                            <section><p class="h-center txt-readable">Video Intro for Open Source Project</p></section>
+                                        </section>
+                                    </div>
+                                    <div>
+                                        <section class="l-crd__vid" style="background-image: url(./img/chess_horror_movie.jpg);"
+                                        onclick="neodigmSodaPop.autoOpen('js-pup-vid-chess_horror_movie')">
+                                            <section><p class="h-center txt-readable">Experimental 4D Video</p></section>
+                                        </section>
+                                    </div>
+                                    <div>
+                                        <section class="l-crd__vid" style="background-image: url(./img/HVAC_VIDEO.jpg);"
+                                        onclick="neodigmSodaPop.autoOpen('js-pup-vid-HVAC_VIDEO')">
+                                            <section><p class="h-center txt-readable">Promotional Marketing Video</p></section>
+                                        </section>
+                                    </div>
+                                    <div>
+                                        <section class="l-crd__vid" style="background-image: url(./img/library_loner.jpg);"
+                                        onclick="neodigmSodaPop.autoOpen('js-pup-vid-library_loner')">
+                                            <section><p class="h-center txt-readable">Vlog Gimbo Video</p></section>
+                                        </section>
+                                    </div>
+                                </section>
+                                <!--
                                 <div class="l-crd-cont">
                                     <section class="l-crd__vid" style="background-image: url(./img/neodigm55_palm.jpg);"
                                     onclick="neodigmSodaPop.autoOpen('js-pup-vid-neodigm55_palm')">
@@ -149,7 +176,7 @@
                                     onclick="neodigmSodaPop.autoOpen('js-pup-vid-library_loner')">
                                         <section><p class="h-center txt-readable">Vlog Gimbo Video</p></section>
                                     </section>
-                                </div>
+                                </div>-->
                             </section>
                             <section>
                                 <h6 class="h-left hd3">About Me</h6>
@@ -175,6 +202,9 @@
 
 <style>
 /* #ff330d af0302 */
+
+neodigm-sodapop{ background-color: #333; }
+
 .l-snackbar .snackbar__cont[data-n55-theme='brand'] { box-shadow: inset #ff330d 0 0 6px 2px !important; background: linear-gradient(45deg, #ff330d 0%, #ff330d 100%) !important; }
 .l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background-color: #af0302 !important }
 .l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background: #af0302 !important }
@@ -190,9 +220,9 @@ section.pfmf-grid {
 .selfy{ max-width: 256px; border-radius: 8px; }
 neodigm-carousel section section{ padding: 16px; }
 hr{ height: 1px; background-color: #cdcdcd; border: none; }
-.l-crd__vid{ border: solid 1px #cdcdcd; border-radius: 8px; padding: 0; background-size: cover;}
+.l-crd__vid{ border: solid 1px #cdcdcd; border-radius: 8px; padding: 0; margin: 8px; background-size: cover; cursor: pointer; height: 144px;}
 .l-crd__vid > section > p { background-color: rgba( 255, 255, 255, .6); margin: 8px; padding: 8px; border-radius: 8px; }
-.l-crd-cont{ display: grid; grid-template-columns: 50% 50%; column-gap: 16px; row-gap: 16px; justify-content: center; margin: 8px 36px;
+.l-crd-contQQQQQQ{ display: grid; grid-template-columns: 50% 50%; column-gap: 16px; row-gap: 16px; justify-content: center; margin: 8px 36px;
 cursor: pointer; }
 
 /*  MQ  */
