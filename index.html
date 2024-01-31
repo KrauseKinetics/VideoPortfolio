@@ -515,5 +515,13 @@ data-n55-sodapop-size="large" data-n55-sodapop-fullscreen="true">
 </script>
 <!--  SFDC form validation and sub end  -->
 
+<script>
+    document.addEventListener("DOMContentLoaded", (ev)=>{
+        if( document.location.href.indexOf("portfolio") != -1 ){
+            setTimeout(()=>{ neodigmCarousel.nav({"id": "js-kk", "nav": 2}) }, 3e3)
+        }
+    })
+</script>
+
     </body>
 </html>
