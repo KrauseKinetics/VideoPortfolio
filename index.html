@@ -23,6 +23,10 @@
         <link rel="stylesheet" href="https://arcanus55.github.io/neodigm55/dist/neodigm55_v1_0_launchComplete.css"></link>
         <template src="https://arcanus55.github.io/neodigm55/dist/neodigm55_v1_0_launchComplete.js"></template>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
         <template href="https://fonts.googleapis.com/css?family=Roboto+Condensed:wght@100;300;400|Roboto+Slab:wght@100;300;400" type="text/css"></template>
         <template rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" type="text/css"></template>
 
@@ -31,6 +35,14 @@
         <style>
             .txt__bebas{ font-family: 'Bebas Neue', sans-serif; }
             .txt__DM{ font-family: 'DM Serif Display', serif; }
+
+            .manrope-txt{
+                color: #EF4423;
+                font-family: "Manrope", system-ui;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }
         </style>
 
         <script>
@@ -44,9 +56,8 @@
             <div>
                 <article class="h-center"
                 style="margin: 0">
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="width: 304px; fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 189 87"><g opacity=".75"><clipPath id="a"><path d="M16.188 20.905 176.992 1.468l7.787 64.426L23.975 85.332l-7.787-64.427Z" clip-rule="nonzero"/></clipPath><g clip-path="url(#a)"><clipPath id="b"><path d="M64.844 37.764C75.86 23.769 79.017 18.841 78.372 18.473c-.591-.335-4.725 3.128-7.274 5.222-3.28 2.669-7.049 6.25-10.38 9.737-3.549 3.758-8.087 9.258-10.293 12.122-1.167 1.521-1.899 2.502-2.468 3.586-.446.866-.276 1.86-.809 2.411-.49.506-1.353.813-2.044.897-.69.083-1.611-.09-2.202-.424-.591-.335-1.117-.961-1.234-1.515-.117-.554-.11-1.326.379-1.832.712-.735 2.758-.779 4.367-1.542 2.364-1.138 6.36-4.503 8.047-5.032.676-.203 1.085-.131 1.543-.064.508.06.981.246 1.369.565.443.352.885 1.11.997 1.624.103.434-.046.858-.2 1.242-.203.39-.327.608-.87 1.079-1.571 1.489-7.812 5.328-11.047 7.952-2.776 2.283-5.103 4.553-7.327 6.852-2.09 2.16-4.117 4.434-5.768 6.501-1.39 1.751-3.99 4.663-3.552 4.975.709.483 10.269-6.112 14.53-8.94 3.57-2.339 5.634-3.888 9.54-6.755 6.43-4.754 17.015-13.218 25.134-19.313 7.477-5.612 16.199-12.511 21.832-15.993 3.214-1.971 5.984-3.889 8.055-4.139 1.184-.143 2.277.212 2.883.666.546.381.835 1.117.853 1.683.019.566-.145.87-.733 1.793-2.559 4.084-19.954 22.016-27.691 31.272-5.987 7.177-12.364 16.918-15.161 19.447-.81.748-1.23 1.001-1.856 1.199-.528.185-1.026.205-1.534.145-.507-.061-1.025-.201-1.408-.48-.493-.346-.979-1.058-1.14-1.566-.103-.434-.092-.76.096-1.27.303-.808.96-1.578 2.29-2.996 3.944-4.211 18.299-16.662 26.878-23.503 7.211-5.742 14.401-10.832 20.79-15.095 5.14-3.422 11.346-7.135 14.342-8.836 1.309-.767 2.098-1.269 2.967-1.536.577-.191 1.021-.245 1.528-.185.661.083 1.548.382 2 .814.453.432.791 1.162.76 1.734-.031.572-.135.95-.837 1.766-3.154 3.709-25.994 18.403-34.875 25.646-5.967 4.861-9.589 8.424-14.204 12.878-4.704 4.546-10.839 12.147-13.856 14.095-1.111.743-1.871 1.078-2.724 1.06-.902-.013-2.084-.682-2.551-1.234-.408-.479-.584-1.107-.321-1.829.477-1.437 3.021-3.571 5.22-5.663 3.048-2.926 8.373-7.304 11.805-9.951 2.47-1.922 4.509-3.264 6.686-4.704 2.04-1.343 3.985-2.633 6.009-3.69 1.88-.998 3.973-1.9 5.803-2.487 1.495-.465 2.822-1.072 4.237-.959 1.617.13 3.927 1.028 4.846 2.012.748.803.76 1.735.772 3.073.029 2.31-1.89 7.128-2.123 9.754-.187 1.768-.412 3.216.132 4.408.476 1.038 1.43 1.897 2.652 2.48 1.487.713 4.079 1.049 5.874.995 1.543-.065 2.742-.494 4.237-.959 1.835-.546 3.651-1.253 5.871-2.333 3.263-1.571 6.625-3.561 11.473-6.501 9.089-5.523 32.231-25.164 38.19-24.707 2.174.184 4.175 2.255 3.841 4.041-.855 4.933-29.186 19.316-38.561 24.955-5.174 3.142-8.773 5.241-12.42 6.94-2.655 1.214-4.856 2.048-7.179 2.694-2.131.582-4.227 1.039-6.268 1.123-1.943.073-4.077-.197-5.732-.646-1.449-.394-2.616-.943-3.748-1.617-1.132-.675-2.18-1.482-2.938-2.365-.757-.882-1.282-1.915-1.659-2.965-.377-1.05-.533-1.924-.509-3.388-.024-2.676 3.071-10.6 1.678-11.365-.857-.465-3.163 1.154-4.767 1.956-1.836.953-3.465 1.962-5.682 3.488-3.516 2.373-9.072 6.494-12.979 9.767-3.591 2.991-7.201 7.892-9.708 9.088-1.136.543-2.181.589-2.945.478-.561-.094-.995-.367-1.329-.651a2.573 2.573 0 0 1-.727-1.049c-.147-.388-.151-.834-.052-1.252.1-.418.278-.601.708-1.181 1.691-2.153 9.187-9.675 13.985-14.273 4.753-4.552 8.514-8.213 14.663-13.218 9.019-7.34 30.221-23.581 35.062-25.749 1.042-.492 1.486-.545 2.19-.509.705.037 1.557.462 2 .814.389.318.585.7.688 1.134.112.514.229 1.069-.33 1.826-1.677 2.273-12.254 7.488-17.166 10.72-3.802 2.489-6.158 4.113-9.876 6.876-5.097 3.782-11.601 8.749-17.637 13.862-6.852 5.82-17.088 17.164-21.121 19.397-1.269.681-2.043.896-2.901.838-.705-.037-1.458-.474-1.91-.906-.453-.432-.777-1.043-.667-1.786.186-1.362 1.778-3.097 3.667-5.679 4.55-6.233 17.992-22.104 25.505-30.724 5.626-6.443 12.769-14.815 15.262-16.537.598-.438.894-.474 1.382-.573a3.436 3.436 0 0 1 1.558.055c.621.169 1.428.639 1.787 1.124.358.484.45 1.244.321 1.828-.13.584-.59 1.329-1.207 1.607-.666.283-1.749-.398-2.612-.09-1.298.441-1.784 1.798-3.829 3.507-6.866 5.7-37.124 28.15-47.011 35.352-4.459 3.258-6.622 4.818-9.915 6.962-3.061 1.993-5.935 3.883-9.187 5.534-3.347 1.704-7.953 4.574-10.655 4.576-1.701.002-3.395-.767-4.122-1.816-.904-1.27-.483-4 .192-5.867.665-1.948 2.463-3.626 3.981-5.555 1.785-2.205 3.95-4.577 6.174-6.875 2.357-2.436 4.768-4.838 7.727-7.266 3.413-2.807 9.31-7.416 11.842-8.412.957-.36 1.603-.397 2.263-.314a2.42 2.42 0 0 1 1.369.565c.443.352.885 1.11.997 1.624.103.434.043.766-.2 1.242-.45.826-2.001 2.069-3.147 2.938-1.146.869-2.538 1.768-3.836 2.209-1.154.383-2.642.075-3.55.429-.765.295-1.073 1.063-1.748 1.266-.676.204-1.618.277-2.298.034-.783-.27-1.629-1.061-1.923-1.837-.313-.936.109-2.408.615-3.605.585-1.37 1.509-2.415 2.805-4.114 2.378-3.088 7.006-8.68 10.737-12.581 3.553-3.718 7.822-7.724 11.057-10.347 2.233-1.813 3.962-3.239 5.985-4.296 1.743-.9 3.638-1.779 5.28-1.855 1.439-.093 2.982.248 4.02.975 1.211.909 2.256 2.934 2.341 4.466.08 1.492-.939 2.995-1.702 4.548-.881 1.811-1.935 3.441-3.478 5.575-2.271 3.156-6.386 10.919-9.276 11.431-1.81.34-5.208-2.942-5.208-2.942Z" clip-rule="nonzero"/></clipPath><g clip-path="url(#b)" opacity=".5"><clipPath id="c"><path d="M22.811 13.603h158.361v64.666H22.811V13.603Z" clip-rule="nonzero"/></clipPath><g clip-path="url(#c)"><path d="M186.247 67.045 23.086 86.768l-8.104-67.046L178.143 0l8.104 67.045Z" style="fill:#e4d4c2"/></g></g></g></g><path d="M.746-.318H.392v.061h.276a.282.282 0 0 1-.273.195.267.267 0 0 1-.198-.083.27.27 0 0 1-.082-.198.27.27 0 0 1 .082-.198.27.27 0 0 1 .198-.082.28.28 0 0 1 .262.181h.074a.352.352 0 0 0-.584-.149.347.347 0 0 0-.075.385.38.38 0 0 0 .075.112.347.347 0 0 0 .248.102.349.349 0 0 0 .344-.284l.007-.042Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(21.186 61.592) scale(10.27)"/><path d="M.145-.336v-.277h.158c.041 0 .074.013.099.038a.136.136 0 0 1 .037.098.14.14 0 0 1-.039.101.127.127 0 0 1-.097.04H.145Zm.364-.139a.196.196 0 0 0-.063-.148.218.218 0 0 0-.153-.057H.075V0h.07v-.269h.082L.426 0H.52L.311-.27a.216.216 0 0 0 .135-.056.196.196 0 0 0 .063-.149Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(33.152 61.592) scale(10.27)"/><path d="m.185-.25.124-.313.123.313H.185ZM.607 0 .309-.727.01 0h.076l.073-.185h.299L.531 0h.076Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(42.439 61.592) scale(10.27)"/><path d="M.145-.337v-.276h.158a.13.13 0 0 1 .099.038.133.133 0 0 1 .037.098c0 .04-.013.074-.039.1a.128.128 0 0 1-.097.04H.145Zm.364-.138c0-.06-.021-.11-.064-.148A.216.216 0 0 0 .293-.68H.075V0h.07v-.269h.148a.21.21 0 0 0 .152-.058.192.192 0 0 0 .064-.148Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(51.719 61.592) scale(10.27)"/><path d="M.145 0v-.304h.309V0h.07v-.68h-.07v.306H.145V-.68h-.07V0h.07Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(60.918 61.592) scale(10.27)"/><path d="M.075-.68h.07V0h-.07z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(70.014 61.592) scale(10.27)"/><path d="M.699-.208H.622a.277.277 0 0 1-.098.106.256.256 0 0 1-.14.04.255.255 0 0 1-.191-.083.269.269 0 0 1-.078-.194c0-.076.026-.141.078-.195a.293.293 0 0 1 .085-.061.23.23 0 0 1 .096-.022.273.273 0 0 1 .247.144h.077A.342.342 0 0 0 .574-.63a.329.329 0 0 0-.19-.059.343.343 0 0 0-.339.35c0 .095.033.177.098.245A.322.322 0 0 0 .384.01c.069 0 .133-.02.191-.061a.331.331 0 0 0 .124-.157Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(75.794 61.592) scale(10.27)"/><path d="M.603-.34a.345.345 0 0 0-.027-.137.333.333 0 0 0-.186-.177.367.367 0 0 0-.137-.026H.075V0h.178A.366.366 0 0 0 .39-.025.335.335 0 0 0 .603-.34Zm-.068 0a.255.255 0 0 1-.082.194.274.274 0 0 1-.198.076h-.11v-.54h.11c.079 0 .145.025.198.076a.255.255 0 0 1 .082.194Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(93.516 61.592) scale(10.27)"/><path d="M.479 0v-.065H.145v-.242h.324v-.066H.145v-.242h.334V-.68H.075V0h.404Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(104.075 61.592) scale(10.27)"/><path d="M.264-.321a.487.487 0 0 1 .179.07.086.086 0 0 1 .033.07c0 .028-.006.05-.018.067-.03.042-.083.063-.159.063-.107 0-.166-.036-.179-.108H.037c.024.115.111.172.262.172a.304.304 0 0 0 .168-.044.174.174 0 0 0 .081-.156.15.15 0 0 0-.065-.129.487.487 0 0 0-.151-.06.733.733 0 0 1-.136-.044C.151-.443.128-.475.128-.517c0-.022.005-.04.015-.055C.169-.611.215-.63.28-.63c.093 0 .147.029.16.088h.076C.491-.641.413-.69.28-.69a.27.27 0 0 0-.157.047c-.045.032-.067.08-.067.144 0 .087.069.146.208.178Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(112.905 61.592) scale(10.27)"/><path d="M.075-.68h.07V0h-.07z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(121.743 61.592) scale(10.27)"/><path d="M.746-.318H.392v.061h.276a.282.282 0 0 1-.273.195.267.267 0 0 1-.198-.083.27.27 0 0 1-.082-.198.27.27 0 0 1 .082-.198.27.27 0 0 1 .198-.082.28.28 0 0 1 .262.181h.074a.352.352 0 0 0-.584-.149.347.347 0 0 0-.075.385.38.38 0 0 0 .075.112.347.347 0 0 0 .248.102.349.349 0 0 0 .344-.284l.007-.042Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(127.513 61.592) scale(10.27)"/><path d="m.145-.501.382.543V-.68h-.07v.5L.075-.723V0h.07v-.501Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(139.48 61.592) scale(10.27)"/><path d="M.479 0v-.065H.145v-.242h.324v-.066H.145v-.242h.334V-.68H.075V0h.404Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(148.606 61.592) scale(10.27)"/><path d="M.145-.336v-.277h.158c.041 0 .074.013.099.038a.136.136 0 0 1 .037.098.14.14 0 0 1-.039.101.127.127 0 0 1-.097.04H.145Zm.364-.139a.196.196 0 0 0-.063-.148.218.218 0 0 0-.153-.057H.075V0h.07v-.269h.082L.426 0H.52L.311-.27a.216.216 0 0 0 .135-.056.196.196 0 0 0 .063-.149Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(158.666 61.592) scale(10.27)"/><path d="M.09 0v-.662h.401l-.01.067-.186-.031a.456.456 0 0 0-.054.004c-.017.003-.035.008-.054.013v.243h.222v.038H.187v.292l.31-.031L.487 0H.09Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(-1.897 47.362) scale(21.072)"/><path d="m.082 0 .037-.662h.093l.231.505.221-.505h.102L.803 0H.701L.674-.569H.67L.418 0H.404L.157-.546H.153L.126 0H.082Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(14.621 47.362) scale(21.072)"/><path d="M.09-.662h.092V0H.09z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(38.029 47.362) scale(21.072)"/><path d="M.09 0v-.662h.098v.608l.052.013a.29.29 0 0 0 .046.005l.181-.031L.455 0H.09Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(48.437 47.362) scale(21.072)"/><path d="M.246 0v-.246L.02-.662h.109l.185.38.173-.38h.05l-.194.411V0H.246Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(63.375 47.362) scale(21.072)"/><path d="M.481.013.192-.326V0H.09v-.662h.102v.326l.309-.326h.066l-.313.308L.609 0 .481.013Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(89.732 47.362) scale(21.072)"/><path d="m.497.014-.232-.33H.188V0H.09v-.662h.216c.043 0 .082.007.117.02a.183.183 0 0 1 .083.056c.02.025.03.056.03.093a.133.133 0 0 1-.054.112.31.31 0 0 1-.137.057L.613 0 .497.014Zm-.309-.36h.064a.233.233 0 0 0 .111-.021.12.12 0 0 0 .054-.053.164.164 0 0 0 .015-.068.2.2 0 0 0-.015-.062.127.127 0 0 0-.032-.043.15.15 0 0 0-.063-.032.656.656 0 0 0-.134.017v.262Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(107.24 47.362) scale(21.072)"/><path d="m.01 0 .297-.678h.015L.619 0H.51L.435-.18H.138L.064 0H.01Zm.143-.218h.266L.287-.542l-.134.324Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(125.36 47.362) scale(21.072)"/><path d="M.323.012a.299.299 0 0 1-.121-.021.207.207 0 0 1-.074-.051.197.197 0 0 1-.037-.068.545.545 0 0 1-.016-.115v-.419h.102v.427l.002.045a.254.254 0 0 0 .009.054.128.128 0 0 0 .078.089c.022.01.05.015.085.015a.192.192 0 0 0 .136-.046C.521-.109.538-.16.538-.232v-.43h.044v.406a.682.682 0 0 1-.003.058.256.256 0 0 1-.014.07.188.188 0 0 1-.115.12.348.348 0 0 1-.127.02Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(143.29 47.362) scale(21.072)"/><path d="M.262.012A.452.452 0 0 1 .15-.002a.837.837 0 0 1-.081-.025v-.047l.046.021a.48.48 0 0 0 .064.021.27.27 0 0 0 .068.009.157.157 0 0 0 .106-.035.12.12 0 0 0 .041-.097.105.105 0 0 0-.023-.067.229.229 0 0 0-.059-.051 1.442 1.442 0 0 0-.078-.044.83.83 0 0 1-.077-.047.217.217 0 0 1-.06-.061.145.145 0 0 1-.023-.081.163.163 0 0 1 .088-.142.25.25 0 0 1 .121-.026c.027 0 .057.003.089.01a1.1 1.1 0 0 1 .083.021l-.01.068A.945.945 0 0 0 .33-.617a.416.416 0 0 0-.116-.016.086.086 0 0 0-.041.036.118.118 0 0 0-.011.05c0 .027.008.05.024.07a.247.247 0 0 0 .063.056c.025.017.052.034.081.05a.857.857 0 0 1 .081.052c.025.019.046.04.062.063a.141.141 0 0 1 .024.082.177.177 0 0 1-.026.094.167.167 0 0 1-.078.067.297.297 0 0 1-.131.025Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(161.808 47.362) scale(21.072)"/><path d="M.09 0v-.662h.401l-.01.067-.186-.031a.456.456 0 0 0-.054.004c-.017.003-.035.008-.054.013v.243h.222v.038H.187v.292l.31-.031L.487 0H.09Z" style="fill:#464a4e;fill-rule:nonzero" transform="translate(178.2 47.362) scale(21.072)"/></svg>
-                    <h1 class="hd5 h-center txt__bebas"
-                    style="margin: 4px;">Motion Graphics & Kinetic Typography</h1>
+                    <img src="./img/ek_branding.webp" alt="Emily Rocks"
+                    style="width: 22%; margin: 4px auto;">
                 </article>
             </div>
         </section>
@@ -120,129 +131,148 @@
                     <neodigm-carousel id="js-kk">
                         <section>
                             <section>
-                                <h6 class="h-left hd3 txt__bebas">Home Page</h6>
-                                <hr>
                                 <br>
-                                <section class="pfmf-grid pfmf-grid__70_30">
+                                <section class="pfmf-grid pfmf-grid__50_50">
                                     <div>
                                         <article>
-                                            <div class="h-center">
-                                                <img src="./img/KK_HOME_PAGE_KK_WAVE_DES.jpg" alt="Krause Kinetics Motion Graphics & Kinetic Typography"
-                                                style="width: 256px; margin-top: -48px;">                                                
+                                            <div class="h-just">
+                                                <p class="txt-readable hd2 manrope-txt">Hi, I’m Emily!</p>
+                                                <p class="txt-readable hd3 manrope-txt">I’m a motion + graphic designer who	creates	vibrant, mixed media, moving art to tell compelling stories and capture the audience’s attention.</p>
                                             </div>
-                                            <p class="txt-readable hd3 txt__DM">My name is Emily Krause and I am a videographer and an aspiring motion graphics designer/kinetic typographer. I love creating visual art, especially if it’s moving (kinetic). I am skilled in Adobe After Effects and Premier Pro. I have experience producing custom website advertisements and marketing videos.</p>
                                         </article>
                                     </div>
                                     <div>
                                         <article>
                                             <div class="h-center">
-                                                <img class="selfy" src="./img/elk_selfy.jpeg" alt="Just Awesome">   
+                                                <video preload="auto" autoplay="" loop="" muted="" poster="" style="background-color: transparent; width: 60%;outline: none;">
+                                                    <source src="/vid/krause_kinetics_wave.mp4" type="video/mp4">
+                                                </video>                                            
                                             </div>
                                         </article>
                                     </div>
                                 </section>
                                 <br>
+                                <section class="pfmf-grid pfmf-grid__50_50">
+                                    <div>
+                                        <article>
+                                            <div class="h-center">
+                                                <video preload="auto" autoplay="" loop="" muted="" poster="" style="background-color: transparent; width: 60%;outline: none;">
+                                                    <source src="/vid/think_positive.mp4" type="video/mp4">
+                                                </video>                                            
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div>
+                                        <article>
+                                            <div class="h-center">
+                                                <video preload="auto" autoplay="" loop="" muted="" poster="" style="background-color: transparent; width: 60%;outline: none;">
+                                                    <source src="/vid/flow_video.mp4" type="video/mp4">
+                                                </video>                                            
+                                            </div>
+                                        </article>
+                                    </div>
+                                </section>
                             </section>
                             <section>
-                                <h6 class="h-left hd3 txt__bebas">Portfolio</h6>
+                                <h6 class="h-left hd3 manrope-txt">Portfolio</h6>
                                 <hr>
                                 <br>
                                 <section class="l-grd-crd pfmf-grid pfmf-grid__25_25_25_25">
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/48Hour_Film_Fest_Trailer.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-48Hour_Film_Fest_Trailer')">
-                                            <section><p class="h-center txt-readable txt__DM">48 Hour Film Fest Trailer</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">48 Hour Film Fest Trailer</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/neodigm55_palm.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-neodigm55_palm')">
-                                            <section><p class="h-center txt-readable txt__DM">Video Intro for Open Source Project</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Video Intro for Open Source Project</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/chess_horror_movie.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-chess_horror_movie')">
-                                            <section><p class="h-center txt-readable txt__DM">Experimental 4D Video</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Experimental 4D Video</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/HVAC_VIDEO.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-HVAC_VIDEO')">
-                                            <section><p class="h-center txt-readable txt__DM">Promotional Marketing Video</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Promotional Marketing Video</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/think_positive.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-think_postive')">
-                                            <section><p class="h-center txt-readable txt__DM">Think Positive</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Think Positive</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/sweet_and_complicated.jpg);" 
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-sweet_and_complicated_720')">
-                                            <section><p class="h-center txt-readable txt__DM">Sweet & Complicated</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Sweet & Complicated</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/34st_video.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-Miracle_Final_Edit_1')">
-                                            <section><p class="h-center txt-readable txt__DM">Miracle on 34th Bird</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Miracle on 34th Bird</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/RAVINA_POSTER_2024_V2.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-RAVINA_POSTER_2024_V2')">
-                                            <section><p class="h-center txt-readable txt__DM">Ravinia 2024</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Ravinia 2024</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/zeta.png);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-zeta')">
-                                            <section><p class="h-center txt-readable txt__DM">Sorority T-Shirt Design</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Sorority T-Shirt Design</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/KRAUSE_KINETICS_LOGO_KK_BLUE.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-KRAUSE_KINETICS_LOGO_KK_BLUE')">
-                                            <section><p class="h-center txt-readable txt__DM">Krause Kinetics Logo</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Krause Kinetics Logo</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/KK_HOME_PAGE_KK_WAVE_DES.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-KK_HOME_PAGE_KK_WAVE_DES')">
-                                            <section><p class="h-center txt-readable txt__DM">80's Wave Krause Kinetic Logo</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">80's Wave Krause Kinetic Logo</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/COOL_VIS_COM-03.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-COOL_VIS_COM-03')">
-                                            <section><p class="h-center txt-readable txt__DM">"Cool" Project Design</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">"Cool" Project Design</p></section>
                                         </section>
                                     </div>
 
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/boat_video.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-boat')">
-                                            <section><p class="h-center txt-readable txt__DM">Boat</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Boat</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/flow_video.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-flow')">
-                                            <section><p class="h-center txt-readable txt__DM">Flow</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Flow</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/golf_video.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-golf')">
-                                            <section><p class="h-center txt-readable txt__DM">Golf</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Golf</p></section>
                                         </section>
                                     </div>
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/library_loner.jpg);"
                                         onclick="neodigmSodaPop.autoOpen('js-pup-vid-library_loner')">
-                                            <section><p class="h-center txt-readable txt__DM">Vlog Gimbo Video</p></section>
+                                            <section><p class="h-center txt-readable manrope-txt">Vlog Gimbo Video</p></section>
                                         </section>
                                     </div>
                                 </section>
@@ -256,7 +286,7 @@
                                 </div>                                
                             </section>
                             <section>
-                                <h6 class="h-left hd3 txt__bebas">About Me</h6>
+                                <h6 class="h-left hd3 manrope-txt">About Me</h6>
                                 <hr>
                                 <br>
                                 <section class="pfmf-grid pfmf-grid__33_33_33 l-saas-crd">
@@ -312,7 +342,7 @@
                                 </aside>
                             </section>
                             <section>
-                                <h6 class="h-left hd3 txt__bebas">Contact</h6>
+                                <h6 class="h-left hd3 manrope-txt">Contact</h6>
                                 <hr>
                                 <br>
                                 <section class="pfmf-grid pfmf-grid__50_50">
@@ -347,23 +377,23 @@
         </section>
 
 <style>
-/* #70e2f7 4bc8f0 */
+/* #EF4423 EF4423 */
 
 *::-webkit-scrollbar { width: 8px; height: 8px; }
 *::-webkit-scrollbar-track { background: rgba(0,66,0, .2); }
-*::-webkit-scrollbar-thumb { background: #70e2f7; }
-::selection { color: #fff; background: #70e2f7; text-shadow: none; }
+*::-webkit-scrollbar-thumb { background: #EF4423; }
+::selection { color: #fff; background: #EF4423; text-shadow: none; }
 
 neodigm-sodapop{ background-color: #333; }
 
-.l-snackbar .snackbar__cont[data-n55-theme='brand'] { box-shadow: inset #70e2f7 0 0 6px 2px !important; background: linear-gradient(45deg, #70e2f7 0%, #70e2f7 100%) !important; }
-.l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background-color: #4bc8f0 !important }
-.l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background: #4bc8f0 !important }
-[data-n55-enchanted-cta][data-n55-theme='brand'] { background: linear-gradient(#70e2f7, #4bc8f0) !important; }
-neodigm-kpi[data-n55-theme='brand'] { background: radial-gradient(circle, #4bc8f0 0%, #4bc8f0 100%) !important; }
-[data-n55-select][data-n55-theme='brand'] { border-color: #4bc8f0 !important; color: #4bc8f0 !important; }
+.l-snackbar .snackbar__cont[data-n55-theme='brand'] { box-shadow: inset #EF4423 0 0 6px 2px !important; background: linear-gradient(45deg, #EF4423 0%, #EF4423 100%) !important; }
+.l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background-color: #EF4423 !important }
+.l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background: #EF4423 !important }
+[data-n55-enchanted-cta][data-n55-theme='brand'] { background: linear-gradient(#EF4423, #EF4423) !important; }
+neodigm-kpi[data-n55-theme='brand'] { background: radial-gradient(circle, #EF4423 0%, #EF4423 100%) !important; }
+[data-n55-select][data-n55-theme='brand'] { border-color: #EF4423 !important; color: #EF4423 !important; }
 
-[data-pref-scheme="dark"] .hd3{ color: #70e2f7; }
+[data-pref-scheme="dark"] .hd3{ color: #EF4423; }
 
 
 .l-saas-crd .banner-cap { font-size: 20px !important; }
