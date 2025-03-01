@@ -58,13 +58,16 @@
                 <style>
                     .l-nav-grd {
                         display: grid;
-                        grid-template-columns: 25% 25% 25% 25%;
+                        grid-template-columns: repeat(4, 256px);
+                        align-items: center;
+                        column-gap: 20px;
                     }
                     .l-nav-grd .nav-grd__btn {
                         cursor: pointer; user-select: none;
                     }
                     .l-nav-grd .nav-grd__btn img {
                         max-width: 256px;
+                        width: 256px;
                     }
                     </style>
             </div>
