@@ -66,7 +66,6 @@
                 </nav>
                 <style>
                     .l-nav-grd {
-
                         display: grid;
                         grid-template-columns: repeat(auto-fit, minmax(256px, 266px));
                         align-items: center;
@@ -218,7 +217,42 @@
                                 <h6 class="h-left hd3 manrope-txt">Graphic Design</h6>
                                 <hr>
                                 <br>
+                                <section class="l-art-crd-grd h-center">
+                                    <article></article>
+                                    <article></article>
+                                    <article></article>
+                                    <article></article>
+                                    <article></article>
+                                    <article></article>
+                                    <article></article>
+                                    <article></article>
+                                </section>
+<style>
+.l-art-crd-grd {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(267px, 267px));
+    align-items: center;
+    column-gap: 32px; row-gap: 32px;
+    margin: 32px 0 32px 0;
+    justify-content: center;
+}
+.l-art-crd-grd > ARTICLE {
+    height: 233px; width: 267px;
+    background-size: cover;
+    cursor: pointer; user-select: none;
+}
+.l-art-crd-grd > ARTICLE:nth-of-type(1){ background-image: url("/img/pinoy.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(2){ background-image: url("/img/future.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(3){ background-image: url("/img/beary.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(4){ background-image: url("/img/luna.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(5){ background-image: url("/img/christmas.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(6){ background-image: url("/img/french.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(7){ background-image: url("/img/ravinia.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(8){ background-image: url("/img/kodak.png"); }
 
+.l-art-crd-grd > ARTICLE > P {}
+.l-art-crd-grd > ARTICLE:hover {}
+</style>
                             </section>
                             <section  data-n55-carousel-page-name="motion">
                                 <h6 class="h-left hd3 manrope-txt">Motion Design</h6>
@@ -676,6 +710,14 @@ data-n55-sodapop-size="large" data-n55-sodapop-fullscreen="true">
             setTimeout(()=>{ neodigmCarousel.nav({"id": "js-kk", "nav": "graphic"}) }, 3e3)
         }
         neodigmCarousel.setOnAfterNav( ()=>{ contact_form_iframe_sfdc.openCTA(); }, 'js-kk', 'contact' )
+
+        window.addEventListener("resize", () => {
+            if( typeof neodigmCarousel != "undefined" ){
+                [ ... document.querySelectorAll( "neodigm-carousel" )].forEach( ( elC )=>{
+                    neodigmCarousel.init().nav({'id': elC.id , 'nav': 'resize'}, false )  //  reset caro (no callbacks)
+                } )
+            }
+        });
     })
 </script>
 
