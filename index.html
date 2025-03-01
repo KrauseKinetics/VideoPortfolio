@@ -37,7 +37,7 @@
             .txt__DM{ font-family: 'DM Serif Display', serif; }
 
             .manrope-txt{
-                color: #EF4423;
+                color: #B23964;
                 font-family: "Manrope", system-ui;
                 font-optical-sizing: auto;
                 font-weight: 400;
@@ -55,7 +55,7 @@
                     onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 'home'})"><img src="./img/elk_logo.png" alt="Emily Rocks"></div>
                     <div class="nav-grd__btn"
                     data-n55-wired4sound-click="7" data-n55-wired4sound-mouseover="3"
-                    onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 'graphc'})"><img src="./img/elk_nav_graphic.png" alt="Graphic Design"></div>
+                    onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 'graphic'})"><img src="./img/elk_nav_graphic.png" alt="Graphic Design"></div>
                     <div class="nav-grd__btn"
                     data-n55-wired4sound-click="7" data-n55-wired4sound-mouseover="3"
                     onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 'motion'})"><img src="./img/elk_nav_motion.png" alt="Motion Graphics"></div>
@@ -170,6 +170,8 @@
                     <neodigm-carousel id="js-kk">
                         <section>
                             <section  data-n55-carousel-page-name="home">
+                                <h6 class="h-left hd3 manrope-txt">Home</h6>
+                                <hr>
                                 <br>
                                 <section class="pfmf-grid pfmf-grid__50_50">
                                     <div>
@@ -212,8 +214,14 @@
                                     </div>
                                 </section>
                             </section>
+                            <section  data-n55-carousel-page-name="graphic">
+                                <h6 class="h-left hd3 manrope-txt">Graphic Design</h6>
+                                <hr>
+                                <br>
+
+                            </section>
                             <section  data-n55-carousel-page-name="motion">
-                                <h6 class="h-left hd3 manrope-txt">Portfolio</h6>
+                                <h6 class="h-left hd3 manrope-txt">Motion Design</h6>
                                 <hr>
                                 <br>
                                 <section class="l-grd-crd pfmf-grid pfmf-grid__25_25_25_25">
@@ -387,7 +395,8 @@
                                 <section class="pfmf-grid pfmf-grid__50_50">
                                     <div>
                                         <nav class="h-center">
-                                            <a id="js-nav__linkedin"
+                                            <a id="js-nav__linkedin" target="_blank"
+                                                href="mailto:someone@example.com?subject=Regarding%20Your%20Awesome%20Website"
                                                 data-n55-enchanted-cta
                                                 data-n55-enchanted-cta-alt="Regarding|Emily"
                                                 data-n55-enchanted-cta-ambient="none"
@@ -398,11 +407,25 @@
                                                 data-n55-flash-theme="marcom"
                                                 data-n55-theme="brand"
                                                 data-n55-wired4sound-click="7"
-                                            ><span data-n55-wired4sound-mouseover="3">LinkedIn</span><span>Contact</span>
+                                            ><span data-n55-wired4sound-mouseover="3">Email</span><span>Address</span>
+                                            </a>
+                                            <a id="js-nav__linkedin" target="_blank"
+                                                href="https://www.linkedin.com/in/emily-krause-aaa74b250/"
+                                                data-n55-enchanted-cta
+                                                data-n55-enchanted-cta-alt="Regarding|Emily"
+                                                data-n55-enchanted-cta-ambient="none"
+                                                data-n55-enchanted-cta-dont-touch="false"
+                                                data-n55-enchanted-cta-shape-off="false"
+                                                data-n55-enchanted-cta-hover-an="true"
+                                                data-n55-enchanted-cta-size="small"
+                                                data-n55-flash-theme="marcom"
+                                                data-n55-theme="brand"
+                                                data-n55-wired4sound-click="7"
+                                            ><span data-n55-wired4sound-mouseover="3">LinkedIn</span><span>Connect</span>
                                             </a>
                                             <a id="js-nav__about"
                                                 data-n55-enchanted-cta
-                                                onclick='neodigmCarousel.nav({"id": "js-kk", "nav": 3})'
+                                                onclick='neodigmCarousel.nav({"id": "js-kk", "nav": "about"})'
                                                 data-n55-enchanted-cta-alt="Regarding|Emily"
                                                 data-n55-enchanted-cta-ambient="none"
                                                 data-n55-enchanted-cta-dont-touch="false"
