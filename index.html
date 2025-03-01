@@ -49,28 +49,34 @@
     <body>
         <section class="pfmf-grid pfmf-grid__100">
             <div>
+                <nav class="l-nav-grd h-center">
+                    <div class="nav-grd__btn"><img src="./img/elk_logo.png" alt="Emily Rocks"></div>
+                    <div class="nav-grd__btn"><img src="./img/elk_nav_graphic.png" alt="Graphic Design"></div>
+                    <div class="nav-grd__btn"><img src="./img/elk_nav_motion.png" alt="Motion Graphics"></div>
+                    <div class="nav-grd__btn"><img src="./img/elk_nav_contact.png" alt="Contact Emily"></div>
+                </nav>
+                <style>
+                    .l-nav-grd {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                    }
+                    .l-nav-grd .nav-grd__btn {
+                        cursor: pointer; user-select: none;
+                    }
+                </style>
+            </div>
+        </section>
+        <!--
+        <section class="pfmf-grid pfmf-grid__100">
+            <div>
                 <article class="h-center"
                 style="margin: 0">
                     <img src="./img/ek_branding.webp" alt="Emily Rocks"
                     style="width: 32%; margin: 4px auto;">
                 </article>
             </div>
-        </section>
+        </section>-->
         <section class="pfmf-grid pfmf-grid__100">
-            <nav class="l-nav-grd h-center">
-                <div class="nav-grd__btn"><img src="./img/elk_logo.png" alt="Emily Rocks"></div>
-                <div class="nav-grd__btn"><img src="./img/elk_nav_graphic.png" alt="Graphic Design"></div>
-                <div class="nav-grd__btn"><img src="./img/elk_nav_motion.png" alt="Motion Graphics"></div>
-                <div class="nav-grd__btn"><img src="./img/elk_nav_contact.png" alt="Contact Emily"></div>
-            </nav>
-            <style>
-                .l-nav-grd {
-                    display: grid;
-                }
-                .l-nav-grd .nav-grd__btn {
-                    cursor: pointer; user-select: none;
-                }
-            </style>
             <nav class="h-center">
                 <a id="js-nav__home"
                     data-n55-enchanted-cta
