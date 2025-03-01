@@ -55,7 +55,7 @@
                     onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 'home'})"><img src="./img/elk_logo.png" alt="Emily Rocks"></div>
                     <div class="nav-grd__btn"
                     data-n55-wired4sound-click="7" data-n55-wired4sound-mouseover="3"
-                    onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 2})"><img src="./img/elk_nav_graphic.png" alt="Graphic Design"></div>
+                    onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 'graphc'})"><img src="./img/elk_nav_graphic.png" alt="Graphic Design"></div>
                     <div class="nav-grd__btn"
                     data-n55-wired4sound-click="7" data-n55-wired4sound-mouseover="3"
                     onclick="neodigmCarousel.nav({'id': 'js-kk', 'nav': 'motion'})"><img src="./img/elk_nav_motion.png" alt="Motion Graphics"></div>
@@ -386,19 +386,36 @@
                                 <br>
                                 <section class="pfmf-grid pfmf-grid__50_50">
                                     <div>
-                                        <section class="">
-                                            <form autocomplete="off" novalidate="" onsubmit="return false">
-                                                <br>
-                                                <input id="tsk_contact_us_email" name="email" class="m5m-input" type="email" placeholder="Email Address">
-                                                <textarea id="tsk_contact_us_message" name="message" class="m5m-input" type="text" rows="3" placeholder="Message"></textarea>
-                                                <div class="h-center">
-                                                    <br>
-                                                    <a id="btn-contact-us" data-n55-enchanted-cta="" onclick="valForm('tsk_contact_us', this )" data-n55-enchanted-cta-size="medium" data-n55-enchanted-cta-dont-touch="true" data-n55-theme="brand" data-n55-flash-theme="marcom" data-n55-wired4sound-click="7">
-                                                        <span data-n55-wired4sound-mouseover="3">Contact <neodigm-icon class="material-symbols-outlined">chat</neodigm-icon></span><span>Send Message <neodigm-icon class="material-symbols-outlined">send</neodigm-icon></span>
-                                                    </a>
-                                                </div>  
-                                            </form>
-                                        </section>
+                                        <nav class="h-center">
+                                            <a id="js-nav__linkedin"
+                                                data-n55-enchanted-cta
+                                                data-n55-enchanted-cta-alt="Regarding|Emily"
+                                                data-n55-enchanted-cta-ambient="none"
+                                                data-n55-enchanted-cta-dont-touch="false"
+                                                data-n55-enchanted-cta-shape-off="false"
+                                                data-n55-enchanted-cta-hover-an="true"
+                                                data-n55-enchanted-cta-size="small"
+                                                data-n55-flash-theme="marcom"
+                                                data-n55-theme="brand"
+                                                data-n55-wired4sound-click="7"
+                                            ><span data-n55-wired4sound-mouseover="3">LinkedIn</span><span>Contact</span>
+                                            </a>
+                                            <a id="js-nav__about"
+                                                data-n55-enchanted-cta
+                                                onclick='neodigmCarousel.nav({"id": "js-kk", "nav": 3})'
+                                                data-n55-enchanted-cta-alt="Regarding|Emily"
+                                                data-n55-enchanted-cta-ambient="none"
+                                                data-n55-enchanted-cta-dont-touch="false"
+                                                data-n55-enchanted-cta-shape-off="false"
+                                                data-n55-enchanted-cta-hover-an="true"
+                                                data-n55-enchanted-cta-size="small"
+                                                data-n55-flash-theme="marcom"
+                                                data-n55-theme="brand"
+                                                QQQQdata-n55-toast="So, let's talk|About Me!"
+                                                data-n55-wired4sound-click="7"
+                                            ><span data-n55-wired4sound-mouseover="3">About</span><span>Me</span>
+                                            </a>
+                                        </nav>
                                     </div>
                                     <div>
                                         <section class="">
@@ -632,9 +649,10 @@ data-n55-sodapop-size="large" data-n55-sodapop-fullscreen="true">
 
 <script>
     document.addEventListener("DOMContentLoaded", (ev)=>{
-        if( document.location.href.indexOf("portfolio") != -1 ){
-            setTimeout(()=>{ neodigmCarousel.nav({"id": "js-kk", "nav": 2}) }, 3e3)
+        if( document.location.href.indexOf("portfolio") != -1 ){  //  Deep Link
+            setTimeout(()=>{ neodigmCarousel.nav({"id": "js-kk", "nav": "graphic"}) }, 3e3)
         }
+        neodigmCarousel.setOnAfterNav( ()=>{ contact_form_iframe_sfdc.openCTA(); }, 'js-kk', 'contact' )
     })
 </script>
 
