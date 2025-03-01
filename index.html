@@ -72,7 +72,9 @@
                 <style>
                     .l-nav-grd {
                         display: grid;
-                        grid-template-columns: auto 256px 256px 256px 256px auto;
+                        grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+                        QQQgrid-template-columns: auto 256px 256px 256px 256px auto;
+                        
                         align-items: center;
                         column-gap: 20px;
                         margin: 32px 0 32px 0;
