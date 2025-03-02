@@ -81,8 +81,6 @@
                         width: 146px;
                     }
                     .l-nav-grd .nav-grd__btn img:hover {
-                        QQQ: hue-rotate(20deg);
-                        QQQ: sepia(100%);
                         filter: contrast(150%) brightness(150%);
                     }
                     </style>
@@ -218,7 +216,8 @@
                                 <hr>
                                 <br>
                                 <section class="l-art-crd-grd h-center">
-                                    <article><picture></picture><p>Pinoy Boba</p></article>
+                                    <article
+                                    onclick='neodigmCarousel.nav({"id": "js-kk", "nav": "pinoy"})'><picture></picture><p>Pinoy Boba</p></article>
                                     <article><picture></picture><p>Zeta Branding</p></article>
                                     <article><picture></picture><p>Beary Seltzer</p></article>
                                     <article><picture></picture><p>Luna Rebrand</p></article>
@@ -250,9 +249,10 @@
     position: absolute; display: block;
     height: 233px; width: 267px;
     background-size: cover;
+    transition: 0.8s;
 }
 
-.l-art-crd-grd > ARTICLE:nth-of-type(1) > PICTURE { background-image: url("/img/pinoy.png"); }
+.l-art-crd-grd > ARTICLE:nth-of-type(1) > PICTURE { background-image: url("/img/pinoy.png"); } 
 .l-art-crd-grd > ARTICLE:nth-of-type(2) > PICTURE { background-image: url("/img/future.png"); }
 .l-art-crd-grd > ARTICLE:nth-of-type(3) > PICTURE { background-image: url("/img/beary.png"); }
 .l-art-crd-grd > ARTICLE:nth-of-type(4) > PICTURE { background-image: url("/img/luna.png"); }
@@ -269,16 +269,50 @@
     font-weight: 600;
     font-style: normal;
     font-size: 32px;
-
+    line-height: .9;
     width: 214px; margin: 64px 0 44px 44px;
     transition: 0.8s;
-
 }
 .l-art-crd-grd > ARTICLE:hover > P {
     position: absolute; display:block;
     z-index: 64;
     transition: 0.8s;
 }
+</style>
+                            </section>
+                            <section  data-n55-carousel-page-name="pinoy">
+                                <h6 class="h-left hd3 manrope-txt">Pinoy Boba</h6>
+                                <hr>
+                                <br>
+                                <section class="l-content-page pfmf-grid pfmf-grid__50_50">
+                                    <div><img src="/img/pinoy/pinoy_1.png" alt="Pinoy Boba"><br><p class="txt-readable hd3 manrope-txt">‘Pinoy Boba’ is a ﬁctitious Filipino-run boba cafe which I created for a Web Design course!</p></br></div>
+                                    <div><img src="/img/pinoy/pinoy_2.png" alt="Pinoy Boba"><br><p class="txt-readable hd3 manrope-txt">I also curated the branding for Pinoy Boba, including the primary and secondary logos, colors, typography, and the merchandise mockups.</p></br></div>
+                                </section>
+                                <section class="l-content-page pfmf-grid pfmf-grid__50_50">
+                                    <div><img src="/img/pinoy/pinoy_3.png" alt="Pinoy Boba"><br>
+                                        <p class="txt-readable hd3 manrope-txt">
+I created Pinoy Boba’s website in Figma, including an
+interactive mobile-centric version. I utilized my HTML
+and CSS skills to best structure the assets in Figma
+and create a functional UI.</p>
+                                    </br></div>
+                                    <div></div>
+                                </section>
+                                <hr><br>
+                                <nav class="h-center">
+                                    <a id=""
+                                    data-n55-enchanted-cta
+                                    onclick='neodigmCarousel.nav({"id": "js-kk", "nav": "next"})' data-n55-enchanted-cta-ambient="none" data-n55-enchanted-cta-dont-touch="false" data-n55-enchanted-cta-shape-off="false" data-n55-enchanted-cta-hover-an="true" data-n55-enchanted-cta-size="small" data-n55-flash-theme="marcom" data-n55-theme="brand" data-n55-wired4sound-click="7"
+                                    ><span data-n55-wired4sound-mouseover="3">Next</span><span>Project</span>
+                                </a>
+                                </nav>
+<style>
+    .l-content-page.pfmf-grid__50_50 IMG {
+        max-width: 66%;
+    }
+    .l-content-page.pfmf-grid__50_50 > DIV {
+        padding: 44px;
+    }
 </style>
                             </section>
                             <section  data-n55-carousel-page-name="motion">
