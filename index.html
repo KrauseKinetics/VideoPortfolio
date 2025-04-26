@@ -622,6 +622,7 @@ make the sky theme cohesive and noticeable.
                                 <h6 class="h-left hd3 manrope-txt">Christmas Card</h6>
                                 <hr>
                                 <br>
+                                <br>
                                 <section class="l-content-page pfmf-grid pfmf-grid__100">
                                     <div>
 <p class="txt-readable manrope-txt--black">
@@ -649,6 +650,7 @@ Christmas spirit!
                             data-n55-cloak="true">
                                 <h6 class="h-left hd3 manrope-txt">Motion Design</h6>
                                 <hr>
+                                <br>
                                 <br>
                                 <section class="l-grd-crd pfmf-grid pfmf-grid__25_25_25_25">
                                     <div>
@@ -763,6 +765,7 @@ Christmas spirit!
                                 <h6 class="h-left hd3 manrope-txt">About Me</h6>
                                 <hr>
                                 <br>
+                                <br>
                                 <section class="pfmf-grid pfmf-grid__33_33_33 l-saas-crd">
                                     <article id="saas-crd-1" class="sm-crd-inver__night-alt h-pos__rel" data-pref-scheme="dark">
                                         <br><div class="saas-crd__rib--side" data-pref-scheme="dark"
@@ -820,6 +823,14 @@ Christmas spirit!
                                 <h6 class="h-left hd3 manrope-txt">Contact</h6>
                                 <hr>
                                 <br>
+                                <br>
+                                <br>
+                                <section class="pfmf-grid pfmf-grid__100">
+                                    <div>
+                                        <iframe src="/assets/elk_resume.pdf"
+                                        style="width: 100%; height: 80vh;"></iframe>
+                                    </div>
+                                </section>
                                 <section class="pfmf-grid pfmf-grid__50_50">
                                     <div>
                                         <nav class="h-center">
@@ -851,6 +862,12 @@ Christmas spirit!
                                                 data-n55-wired4sound-click="7"
                                             ><span data-n55-wired4sound-mouseover="3">LinkedIn</span><span>Connect</span>
                                             </a>
+                                            <a id="cta-down-res-mob" data-n55-enchanted-cta="" data-n55-flash-theme="danger" data-n55-wired4sound-click="5" data-n55-enchanted-cta-size="small" data-n55-theme="brand" data-n55-enchanted-cta-ambient="emit" data-n55-enchanted-cta-alt="Education & Work History|Download PDF"
+                                            href="./assets/elk_resume.pdf" target="_blank" rel="noopener">
+                                                <span>Download Résumé <neodigm-icon class="material-symbols-outlined">download</neodigm-icon></span>
+                                                <span>Download PDF <neodigm-icon class="material-symbols-outlined">download</neodigm-icon></span>
+                                            </a>
+                                            <!--
                                             <a id="js-nav__about"
                                                 data-n55-enchanted-cta
                                                 onclick='neodigmCarousel.nav({"id": "js-kk", "nav": "about"})'
@@ -866,6 +883,7 @@ Christmas spirit!
                                                 data-n55-wired4sound-click="7"
                                             ><span data-n55-wired4sound-mouseover="3">About</span><span>Me</span>
                                             </a>
+                                            -->
                                         </nav>
                                     </div>
                                     <div>
@@ -876,6 +894,7 @@ Christmas spirit!
                                         </section>
                                     </div>
                                 </section>
+
                             </section>   
                         </section>
                      </neodigm-carousel>
@@ -884,6 +903,19 @@ Christmas spirit!
         </section>
 
 <style>
+/*  N55 overrides  */
+/* brand */
+.l-snackbar .snackbar__cont[data-n55-theme='brand'] { box-shadow: inset #0082ba 0 0 6px 2px !important; background: linear-gradient(45deg, #0082ba 0%, #0082ba 100%) !important; }
+.l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background-color: #c93669 !important }
+.l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background: #c93669 !important }
+[data-n55-enchanted-cta][data-n55-theme='brand'] { background: linear-gradient(#b92659, #d94679) !important; }
+neodigm-kpi[data-n55-theme='brand'] { background: radial-gradient(circle, #c93669 0%, #00629a 100%) !important; }
+[data-n55-select][data-n55-theme='brand']     { border-color: #c93669 !important; color: #c93669 !important; }
+
+/* Soda Pop X vector fill */
+neodigm-sodapop-scrim-close > svg { fill: var( --neodigm-theme-brand-alt ); }
+
+
 section.pfmf-grid__50_50 > div:nth-child(1) {
     order: 0;
 }
@@ -949,14 +981,14 @@ section.pfmf-grid__50_50 > div:nth-child(1) {
 }
 /*  Card hover text End  */
 neodigm-sodapop{ background-color: #333; }
-
+/*
 .l-snackbar .snackbar__cont[data-n55-theme='brand'] { box-shadow: inset #EF4423 0 0 6px 2px !important; background: linear-gradient(45deg, #EF4423 0%, #EF4423 100%) !important; }
 .l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background-color: #EF4423 !important }
 .l-snackbar .snackbar__cont[data-n55-theme='brand'] .snackbar__progbar { background: #EF4423 !important }
 [data-n55-enchanted-cta][data-n55-theme='brand'] { background: linear-gradient(#EF4423, #EF4423) !important; }
 neodigm-kpi[data-n55-theme='brand'] { background: radial-gradient(circle, #EF4423 0%, #EF4423 100%) !important; }
 [data-n55-select][data-n55-theme='brand'] { border-color: #EF4423 !important; color: #EF4423 !important; }
-
+*/
 [data-pref-scheme="dark"] .hd3{ color: #EF4423; }
 
 
