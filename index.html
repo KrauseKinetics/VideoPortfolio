@@ -652,6 +652,29 @@ Christmas spirit!
                                 <hr>
                                 <br>
                                 <br>
+                                <section class="l-grd-crd pfmf-grid pfmf-grid__100">
+                                    <div>
+                                        <video id="myVidy" data-muted="true" preload="auto" autoplay="" loop="" muted="" poster="" style="background-color: transparent; width: 100%;outline: none;">
+                                            <source src="/vid/SHOWREEL-2025.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                </section>
+                        
+<script>
+const elVidy = document.getElementById('myVidy')
+if( elVidy ){
+    elVidy.addEventListener('click', function() {
+        if(elVidy.dataset.muted == "false"){
+            elVidy.muted = elVidy.dataset.muted = true
+        }else{
+            elVidy.muted = elVidy.dataset.muted = false
+        }
+        elVidy.play()
+    })    
+}
+
+</script>
+<!--
                                 <section class="l-grd-crd pfmf-grid pfmf-grid__25_25_25_25">
                                     <div>
                                         <section class="l-crd__vid" style="background-image: url(./img/48Hour_Film_Fest_Trailer.jpg);"
@@ -751,6 +774,7 @@ Christmas spirit!
                                         </section>
                                     </div>
                                 </section>
+                                
                                 <br>
                                 <br>
                                 <br>
@@ -758,7 +782,8 @@ Christmas spirit!
                                     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7184134930044477440" height="604" QQQQwidth="504" frameborder="0" allowfullscreen="" title="Embedded post"
                                     style="margin: 8px auto; max-width: 504px; width: 88%;"></iframe>
 
-                                </div>                                
+                                </div>
+-->
                             </section>
                             <section  data-n55-carousel-page-name="about"
                             data-n55-cloak="true">
